@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import "../styles/Hero.css";
 
 const Hero = () => {
   return (
@@ -20,6 +21,7 @@ const Hero = () => {
             <ArrowOutwardIcon className="icon" />
           </span>
         </Link>
+        <span className="scroll">Scroll</span>
       </div>
       <div className="right">
         <img
